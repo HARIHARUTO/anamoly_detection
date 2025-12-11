@@ -1,4 +1,6 @@
 # 🔍 Anomaly Detection Project
+# 📜 License
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
 
 ![Python](https://img.shields.io/badge/python-3.13.2%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
