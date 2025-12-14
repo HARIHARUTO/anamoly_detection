@@ -24,7 +24,9 @@ with open("logs/app.log","r")as f:
         route_id=route_map[log["route"]]
         x=[[latency,status,route_id]]
         prediction=model.predict(x)[0]
-        if prediction==-1:
+        if prediction==-1 and (
+            log["latency_ms"]>400 or log["status_code"]>400
+        ):
             print(f"anamoly detected:{log}")
         else:
             print("normal:",log)
