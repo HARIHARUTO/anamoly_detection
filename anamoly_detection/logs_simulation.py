@@ -12,7 +12,7 @@ def simulate_logs():
     
     ROUTES=['/Home','/login','/search','/page','/checkout']
     anamoly_probabiltiy=0.03
-    max_logs=10
+    max_logs=1000
     count=0
     while count<max_logs:
         
