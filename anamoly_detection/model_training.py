@@ -44,7 +44,7 @@ print("END OF FILE REACHED")
 model=IsolationForest(
     n_estimators=100,
     max_samples='auto',
-    contamination='auto',
+    contamination=0.05,
     random_state=42 
 )
 model.fit(X)
